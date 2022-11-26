@@ -13,8 +13,9 @@ export default function CadastroProduto() {
       <Gradient />
       <Logo source={logo}/>
       <Title>Cadastro Produto</Title>
-      
       <StatusBar style="auto" />
+      
+
     </Container>
   );
 }
