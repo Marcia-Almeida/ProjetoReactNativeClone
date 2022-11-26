@@ -13,7 +13,7 @@ export default function AlterarCategoria() {
       <Gradient />
       <Logo source={logo}/>
       <Title>Alterar Categoria</Title>
-      image.png
+      
       <StatusBar style="auto" />
     </Container>
   );

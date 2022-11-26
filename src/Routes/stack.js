@@ -9,6 +9,12 @@ import SplashScreen from '../screens/SplashScreen';
 import ConfirmacaoCadastro from '../screens/ConfirmacaoCadastro';
 import Marketplace from '../screens/Marketplace';
 import Produtos from '../screens/Produtos';
+import Favoritos from '../screens/Favoritos';
+import Carrinho from '../screens/Carrinho';
+import CadastroCategoria from '../screens/CadastroCategoria';
+import CadastroProduto from '../screens/CadastroProduto';
+import AlterarCategoria from '../screens/AlterarCategoria';
+import AlterarProduto from '../screens/AlterarProduto';
 const { Screen, Navigator } = createNativeStackNavigator();
 
 export function StackRoutes() {
@@ -58,6 +64,38 @@ export function StackRoutes() {
             <Screen
                 name="Produtos"
                 component={Produtos}
+            />
+             
+            <Screen
+                name="Favoritos"
+                component={Favoritos}
+            />
+
+
+            <Screen
+                name="Carrinho"
+                component={Carrinho}
+            />
+
+
+            <Screen
+                name="CadastroCategoria"
+                component={CadastroCategoria}
+            />
+
+            <Screen
+                name="CadastroProduto"
+                component={CadastroProduto}
+            />
+
+            <Screen
+                name="AlterarCategoria"
+                component={AlterarCategoria}
+            />
+
+            <Screen
+                name="AlterarProduto"
+                component={AlterarProduto}
             />
         </Navigator>
     )
